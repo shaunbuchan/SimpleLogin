@@ -5,6 +5,32 @@
     <title>Title</title>
 </head>
 <body>
+<!--Section 1 FOR users-->
+
+<section class="grid-60">
+    <form id = "login"  method="post" action="login.php">
+        <div class="userLogin">
+            <h1>Login</h1>
+            <label for="username">Username:</label><br>
+            <Input type="text" placeholder="Enter Username" name="username" required><br>
+            <label for="psw">Password:</label><br>
+            <input type="password" placeholder="Enter Password" name="psw"><br>
+
+            <button type="submit">Login</button>
+            <label><input type="checkbox" checked="checked" name="remember">Remember Me</label>
+        </div>
+
+        <div id="forgotten details">
+            <nav>
+                <ul>
+                    <li><a href="#">Forgotten username ?</a></li>
+                    <li><a href="#">Forgotten password ?</a></li>
+                </ul>
+            </nav>
+        </div>
+    </form>
+
+</section>
 
 </body>
 </html>
